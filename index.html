@@ -11,6 +11,7 @@
     <!-- font awesome cdn -->
     <script src="https://kit.fontawesome.com/bb54ec9fcc.js" crossorigin="anonymous"></script>
 
+
     <!-- google fonts cdn -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -24,6 +25,10 @@
             extend: {
               colors: {
                 clifford: '#da373d',
+
+               'white-color':'#FFFFFF',
+               'linear-gradient-white': 'linear-gradient(0.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%)',
+                'button-color':'#ABEF5F',
               }
             }
           }
@@ -39,20 +44,46 @@
 </head>
 <body class="manrope-font">
   <!-- header section  -->
-      <header>
+      <header class="bg-linear-gradient-white  h-[600px]">
         <!-- navigation bar section -->
-          <nav>
+          <nav class="max-w-screen-lg mx-auto  my-8   ">
+            <div class="navbar bg-linear-gradient-white">
+              <div class="navbar-start">
+                <i class="fa-solid fa-arrow-right inline-flex text-black justify-center items-center rounded-full  mr-2 w-6 h-6 -rotate-45 bg-button-color  "></i>
+                  <h1 class="text-3xl font-bold">Rinterio</h1>
+                  
+              </div>
+              <div class="navbar-center hidden lg:flex">
+                <ul class="menu menu-horizontal">
+                  <li class="font-bold"><a>Home</a></li>
+                    
+                  <li><a>Service</a></li>
+                  <li><a>Portfolio</a></li>
+                    
+                  <li><a>Blogs </a></li>
+                  <li><a>Contact Us</a></li>
+                </ul>
+              </div>
+              <div class="navbar-end ">
+                
+                <i class="fa-solid fa-magnifying-glass inline-flex text-black justify-center items-center rounded-full  mx-2 w-7 h-7 hover:bg-gray-300 bg-gray-200 hidden md:flex"></i>
+                <i class="fa-solid fa-cart-shopping inline-flex text-black justify-center items-center rounded-full  mx-2 w-7 h-7 hover:bg-gray-300 bg-gray-200 hidden  md:flex"></i>
 
+
+                <a class="btn rounded-full font-bold bg-button-color hidden  md:flex">Book Consult  <i class="fa-solid fa-arrow-right inline-flex text-black justify-center items-center rounded-full  mx-2 w-6 h-6  bg-black text-white font-2xl -rotate-45 "></i></a>
+                <i class="fa-solid fa-bars text-2xl inline-flex text-black justify-center items-center rounded-full  mx-2 w-10 h-10  hover:bg-gray-300 bg-gray-200  font-bold lg:hidden  "></i>
+                
+            </div>
           </nav>
 
         <!-- header banner section -->
           <section>
-            
+         
           </section>
       </header>
   <!-- main section -->
       <main>
-
+        
       </main>
   <!-- footer section -->
       <footer>
